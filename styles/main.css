@@ -1,0 +1,20 @@
+html {
+  background-color: #72a59d;
+  color: #4b4f4f;
+  display: block;
+  font-family: open sans;
+  padding: 5%;
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+a {
+  color: #d37843;
+  text-decoration: none;
+}
+a:hover {
+  color: #c1b9b4;
+  text-decoration: none;
+}
