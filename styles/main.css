@@ -1,14 +1,26 @@
 html {
   background-color: #72a59d;
   color: #4b4f4f;
-  display: block;
-  font-family: open sans;
-  padding: 5%;
-  text-align: center;
+  font-family: "open sans";
+  font-size: 20px;
+  padding: 60px 10%;
+}
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 img {
+  border: solid 6px #c1b9b4;
   border-radius: 50%;
-  width: 100px;
+  width: 13.5rem;
+}
+.content {
+  line-height: 2;
+  padding: 20px;
+}
+h1 {
+  font-size: 3rem;
 }
 a {
   color: #d37843;
@@ -17,4 +29,17 @@ a {
 a:hover {
   color: #c1b9b4;
   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 0.75rem;
+  }
+  body {
+    flex-direction: column;
+    text-align: center;
+  }
+  img {
+    width: 10.125rem;
+  }
 }
